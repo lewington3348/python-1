@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+
+red='\033[0;31m'
+import colors as c
+import time
+
+hundredths = 0
+seconds = 0
+minutes = 0
+hours = 0
+days = 0
+mesg = c.clear + c.cyan + '[control-c to stop]' + c.reset
+while True:
+    print( mesg + '{}:{}:{}:{}.{}'.format(days,hours,minutes,seconds,hundredths))
+    time.sleep(0.01)
+    hundredths += 1
+    if hundredths == 100:
+        hundredths = 0
+        seconds += 1
+    if seconds == 60:
+        seconds = 0
+        minutes += 1
+    if minutes == 60:
+        minutes = 0
+        hours += 1
+    if hours == 24:
+        hours = 0
+        days += 1
+
+

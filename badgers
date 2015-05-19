@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+import colors as c
+import time
+print(c.clear)
+snake = '''      
+  .-')        .-') _    ('-.    .-. .-')    ('-.   
+ ( OO ).     ( OO ) )  ( OO ).-.\  ( OO ) _(  OO)  
+(_)---\_),--./ ,--,'   / . --. /,--. ,--.(,------. 
+/    _ | |   \ |  |\   | \-.  \ |  .'   / |  .---' 
+\  :` `. |    \|  | ).-'-'  |  ||      /, |  |     
+ '..`''.)|  .     |/  \| |_.'  ||     ' _||  '--.  
+.-._)   \|  |\    |    |  .-.  ||  .   \  |  .--'  
+\       /|  | \   |    |  | |  ||  |\   \ |  `---. 
+ `-----' `--'  `--'    `--' `--'`--' '--' `------' 
+                                                   
+'''
+
+print(snake)
+exit()
+
+for count in range(4):
+    for count in range(11):
+        print(count + 1)
+        print("badgers")
+        time.sleep(0.5)
+    for count in range(2):
+        print(count)
+    
+        print("mushroom" + red )
+        time.sleep(0.5)
+    for count in range(2):
+        print(count)
+        print("snaaaakkkkkkkkkkkkkkkkkkkkkkkkkkeeeeeeeeeee")
+        time.sleep(0.5)
