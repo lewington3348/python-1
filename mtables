@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import colors as c
+print (c.clear +c.red + "yay,i hate math" + c.reset)
+number = input('uuuughhhhhhh, which number?')
+print('ok, lazy 1st grader, here are the' + number + 'dang numbers,moron')
+
+for multiplier in range(13,0,-1):
+    answer = multiplier * int(number)
+    print('{} x {} = {}'.format(number,multiplier,answer))
