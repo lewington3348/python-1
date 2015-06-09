@@ -4,13 +4,32 @@ import colors as c
 print(c.clear + c.green + '''whoever dare to cross the bridge of death shall awnser these three questions, ere the other side he see''' + c.reset )
 
 def prompt(question):
-    print(question)
-    answer = input('>' + c.green)
+    print(question + c.reset)
+    answer = input('>' + c.green).lower().strip()
     print(c.reset)
     return answer
-
-name = prompt('what is your name?')
+def live ():
+    print('right, then off you go, then' + c.blue)
+def die():
+    print('you have been cast into the gorge of eternal peril')   
+name  = prompt('what is your name?')
 quest = prompt('what is your quest?')
 
-if name == 'lancelot' or name == 'galahad':
-    color = prompt('what is your favorite color?')
+if name in ['lancelot','galahad']: 
+    colour = prompt('what is your favorite color?' + c.yellow)
+    if colour == 'blue':
+        live()
+    else:
+        die()
+elif name == 'robin':
+    capital = prompt('what is the capital of assyria?')
+    if capital in ['assur','ashur']:
+        live()
+    else:
+        die()
+elif name == 'arthur':
+    speed = prompt('what is the air-speed velocity of a swallow?')
+    if speed in ['an african or a european swallow?']:
+        live()
+    else:
+        die()
