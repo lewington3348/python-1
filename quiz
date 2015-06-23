@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+import colors as c
+print (c.clear + c.magenta + 'lets give you a quiz, and test ur brainyness')
+ color = ask('WHAT COLOR ARE THE SWAGALISCIOUS UNICORNS?')

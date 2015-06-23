@@ -8,6 +8,7 @@ def prompt(question):
     answer = input('>' + c.green).lower().strip()
     print(c.reset)
     return answer
+
 def live ():
     print('right, then off you go, then' + c.blue)
 def die():
