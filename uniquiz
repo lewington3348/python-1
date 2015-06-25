@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 import random
 import colors as c
-import pink as quiz
+import narwhals as quiz
 print(c.clear + quiz.intro)
 
 #YOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLO NARWHALS = SWAGGY
 #SELFIE
 
 while quiz.questions:
-    if  random.choice(quiz.questions)():
+    question_function = random.choice(quiz.questions)
+    if question_function():
         quiz.questions.remove(question_function)
     
 
