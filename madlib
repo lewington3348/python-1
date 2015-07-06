@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+
+text = '''
+I just love dating {supreme_dictator}, i also love eating {adj1} snocones
+ and getting abtucded by {plural1} and shooting peasants with a {gun1}
+now i have to eat my {adj2} calimari, and then shoot it with a {gun2}
+'''
+words = {
+    'adj2' : {},
+    "gun1" : {},
+    "supreme_dictator" : {},
+    "gun2" : {},
+    "adj1" : {},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
