@@ -1,20 +1,39 @@
 #!/usr/bin/env python3
 
+import colors as c
+
+
+
 text = '''
 I just love dating {supreme_dictator}, i also love eating {adj1} snocones
  and getting abtucded by {plural1} and shooting peasants with a {gun1}
 now i have to eat my {adj2} calimari, and then shoot it with a {gun2}
 '''
+
 words = {
     'adj2' : {},
     "gun1" : {},
-    "supreme_dictator" : {},
+    "supreme_dictator" : {meaniepoo leader},
     "gun2" : {},
-    "adj1" : {},
+    "adj1" : {}
+}
+
+
+print(c.clear + c.magenta + "welcome to the madlibs silly story" + c.reset )  
 
 
 
-
+answers = {}
+for key in words:
+    desc = words[key].get('desc')
+    if desc:
+        promt = desc.title
+    elif key.startswith('supreme_dictator')
+        prompt = 'supreme dictator'
+    elif key.startswith('adj1')
+        prompt = 'adjective'
+    elif key.startswith('adj2')
+        prompt = 'adjective'
 
 
 
