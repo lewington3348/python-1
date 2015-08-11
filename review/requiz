@@ -4,10 +4,14 @@ import colors as c
 import utils
 import random
 
-print(c.reset + c.magenta  + "welcome to the wonderful new quiz, yay :}")
+print(c.clear + c.magenta + "welcome to the wonderful quiz :}
+control c if u give up m80")
 
-print(c.reset + c.red
+print(c.clear + c.red +" what is your favorite color?"
+q1 = input("-->")
 
+if q1 == else:  
+    print(c.clear + c.orange + "WRONG"
 
 
 
