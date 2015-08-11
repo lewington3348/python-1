@@ -40,8 +40,13 @@ if q4 == "louisthegreat":
 else:
     print(c.clear + c.magenta + "NOPE")
 
+print(c.clear + c.green + "is this the end of the quiz?")
+q5 = input("-->")
 
-
+if q5 == "yes":
+    print(c.clear + c.green + "yay, bye bye")
+else:
+    print(c.clear + c.green + "WRONG U SLACKER")
 
 
 
