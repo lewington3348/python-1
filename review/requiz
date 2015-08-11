@@ -7,12 +7,14 @@ import random
 print(c.clear + c.magenta + "welcome to the wonderful quiz :}
 control c if u give up m80")
 
-print(c.clear + c.red +" what is your favorite color?"
+print(c.clear + c.red +" what is my favorite color?")
 q1 = input("-->")
 
-if q1 == else:  
-    print(c.clear + c.orange + "WRONG"
+if q1 == "purple":  
+    print(c.clear + c.orange + "yes")
 
+if else:    
+    print("wrong!!!")
 
 
 
