@@ -1,1 +1,26 @@
 #!/usr/bin/env python3
+
+import colors as c
+
+print(c.orange + "do you like  waffles? :}")
+q1 = input(">")
+
+if q1 == 'no':
+    print('well i do :{') 
+    
+print(c.magenta + "do you like pancakes? :}")
+q2 = input(">")
+
+if q2 == 'no':
+    print('well i do')
+
+
+print(" do you like French toast? :}")
+q3 = input(">")
+
+if q3 == 'no':
+    print("well i do")
+    
+
+
+
