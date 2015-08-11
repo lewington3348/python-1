@@ -4,8 +4,9 @@ import colors as c
 import utils
 import random
 
+print(c.reset + c.magenta  + "welcome to the wonderful new quiz, yay :}")
 
-
+print(c.reset + c.red
 
 
 
