@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import random
+import colors as c
+
+answers = "outlook is good","it is certain","as i see it, yes","my name is jeff","how about NO","outlook not so good"
+
+
